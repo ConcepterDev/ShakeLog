@@ -1,0 +1,6 @@
+framework module ShakeLog {
+  umbrella header "ShakeLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'ShakeLog_Example' do
+    pod 'ShakeLog', :path => '../'
+
+    target 'ShakeLog_Tests' do
+        inherit! :search_paths
+
+
+    pod 'ShakeLog', :path => '../'
+    pod 'Quick', '~> 1.0.0'
+        pod 'Nimble', '~> 5.1.1'
+        
+    end
+end

@@ -1,0 +1,6 @@
+framework module AEConsole {
+  umbrella header "AEConsole-umbrella.h"
+
+  export *
+  module * { export * }
+}

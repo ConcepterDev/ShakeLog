@@ -1,0 +1,31 @@
+PODS:
+  - AEConsole (0.3.0):
+    - AELog (~> 0.3)
+  - AELog (0.3.0)
+  - Concepter_Log (1.2.1)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - ShakeLog (0.0.1):
+    - AEConsole
+    - Concepter_Log (~> 1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+  - ShakeLog (from `../`)
+
+EXTERNAL SOURCES:
+  ShakeLog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AEConsole: bde8ae8616522b88909dff1ba7a4aa6e86568e6e
+  AELog: 69608a89a1d0460ad32bba73f8e1043e12764d85
+  Concepter_Log: 0b22d9b07a653b8d51139abe16552a1a6669e5df
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  ShakeLog: 9f25545d4aba37d4b73468815ecf378072e776d2
+
+PODFILE CHECKSUM: 160f8cfbe82111e3547af054a27fc03647ed0d87
+
+COCOAPODS: 1.2.0

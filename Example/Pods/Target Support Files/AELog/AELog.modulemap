@@ -1,0 +1,6 @@
+framework module AELog {
+  umbrella header "AELog-umbrella.h"
+
+  export *
+  module * { export * }
+}

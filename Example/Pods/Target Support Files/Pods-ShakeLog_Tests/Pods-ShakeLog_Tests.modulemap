@@ -1,0 +1,6 @@
+framework module Pods_ShakeLog_Tests {
+  umbrella header "Pods-ShakeLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

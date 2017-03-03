@@ -1,0 +1,6 @@
+framework module Concepter_Log {
+  umbrella header "Concepter_Log-umbrella.h"
+
+  export *
+  module * { export * }
+}
