@@ -24,7 +24,7 @@ pod "ShakeLog"
 import ShakeLog
 ```
 
-add keys to 'Info.plist'
+add keys to `Info.plist`
 ```xml
 <key>AELog</key>
 <dict>
@@ -60,9 +60,9 @@ Andrew Skrypnik, anarh93@gmail.com
 
 ## Dependency
 
-'Log': [https://github.com/delba/Log](https://github.com/delba/Log)
+`Log`: [https://github.com/delba/Log](https://github.com/delba/Log)
 
-'AEConsole': [https://github.com/tadija/AEConsole](https://github.com/tadija/AEConsole)
+`AEConsole`: [https://github.com/tadija/AEConsole](https://github.com/tadija/AEConsole)
 
 ## License
 
