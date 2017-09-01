@@ -17,10 +17,13 @@ open class Log: Logger {
     /// Configures delegate for `AEConsole` singleton. Use it if you need additional functionality after each line of log.
     open class func launch(with application: UIApplicationDelegate) {
 
-        AEConsole.launch(with: application)
-
+        #if SHAKELOGSHOW
+            AEConsole.launch(with: application)
+        #endif
         Log.shared.didLog = { (string) in
-            aelog(string)
+            #if SHAKELOGSHOW
+                aelog(string)
+            #endif
         }
     }
 }

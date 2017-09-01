@@ -1,6 +1,6 @@
 # ShakeLog
 
-[![CI Status](http://img.shields.io/travis/Andrew Skrypnik/ShakeLog.svg?style=flat)](https://travis-ci.org/Andrew Skrypnik/ShakeLog)
+[![CI Status](http://img.shields.io/travis/Andrew%20Skrypnik/ShakeLog.svg?style=flat)](https://travis-ci.org/Andrew Skrypnik/ShakeLog)
 [![Version](https://img.shields.io/cocoapods/v/ShakeLog.svg?style=flat)](http://cocoapods.org/pods/ShakeLog)
 [![License](https://img.shields.io/cocoapods/l/ShakeLog.svg?style=flat)](http://cocoapods.org/pods/ShakeLog)
 [![Platform](https://img.shields.io/cocoapods/p/ShakeLog.svg?style=flat)](http://cocoapods.org/pods/ShakeLog)
@@ -38,6 +38,13 @@ add keys to `Info.plist`
 <key>Enabled</key>
 <true/>
 </dict>
+```
+
+add `-DSHAKELOGSHOW` key to `Build Settings`->`Other Swift Flags` -> `Debug` to disable logs in `Release` builds 
+```
+#if SHAKELOGSHOW
+    //... aelog()
+#endif
 ```
 
 then finish setup
